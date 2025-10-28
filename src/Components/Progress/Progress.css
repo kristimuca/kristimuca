@@ -1,0 +1,120 @@
+
+.tracker-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid rgb(246, 216, 200);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  color: #FF3B00;
+  padding: 15px;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.main-cont {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.progress-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.meal-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.tracker-container h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bolder;
+  margin: 10px 0;
+  color: #fc5400fa;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 14px;
+}
+
+input[type='number'] {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.checkbox-group input {
+  margin-right: 8px;
+}
+
+.progress-table {
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.flex-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chart-container h2 {
+  padding-top: 20px;
+  color: #FF3B00;
+}

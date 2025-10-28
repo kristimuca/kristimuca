@@ -1,0 +1,65 @@
+.personalized-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+  
+  h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+ 
+  
+  .personalized-plan h2,
+  .personalized-plan h3 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #fc5400fa;
+  
+  }
+  
+  
+  .workout-routine,
+  .meal-plan {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ddddde;
+    padding: 15px;
+    border: 1px solid #000000;
+  }
+  
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    background-color: #f9f9f9;
+    border: 1px solid #f26638;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+ 
+  
+  
+  
+  

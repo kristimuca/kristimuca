@@ -1,0 +1,81 @@
+
+
+.btn-container{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ gap: 70px;
+
+ 
+
+}
+.workouts-btn{
+    padding: 20px 40px;
+    font-size: 30px;
+    background-color: rgb(247, 173, 98) ;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 250px;
+    text-align: center;
+}
+
+.workouts-btn:hover{
+    background-color: rgb(251, 127, 33) ;
+}
+
+.meals-btn{
+    padding: 20px 40px;
+    font-size: 30px;
+    background-color: rgb(247, 173, 98) ;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 250px;
+    text-align: center;
+}
+
+.meals-btn:hover{
+    background-color: rgb(251, 127, 33) ;
+}
+
+.logged-wraper h1{
+    text-align: center;
+   margin: 0;
+    color:rgb(251, 127, 33);
+    padding-top: 20px;
+    font-size: 4rem;
+    width: 100%;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.logged-wraper{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   height: 100dvh;
+  padding: 20px;
+}
+
+.motivation-quote{
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.description{
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 40%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+}
